@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 300px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.one,.two,.three{
+
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    border: 1px solid wheat;
+}
+.one{
+    flex: 2;
+    order: 3;
+}
+.two{
+    flex:3;
+    order: 2;
+}

@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: orange;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 30px;
+    background-color:#80004D;
+    color: white;
+    font-weight: 500;
+    margin-left: 450px;
+}
+td{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
