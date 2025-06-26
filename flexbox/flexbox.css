@@ -24,3 +24,25 @@
     flex:3;
     order: 2;
 }
+@media (max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    .one{
+        flex: 3;
+        order: 0;
+    }
+    .three{
+        order: 2;
+    }
+    .one,
+    .two,
+    .three{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+    }
+}
