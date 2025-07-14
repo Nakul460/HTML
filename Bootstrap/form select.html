@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form select</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body class="bg-primary">
+    <div class="mt-5 w-50 mx-auto mb-5">
+    <form class="form-control">
+        <label class="form-label">Choose an option</label>
+        <select class="form-select form-select-lg mb-4 shadow p-3 mb-5 bg-white rounded">
+            <option disabled selected>click here</option>
+            <option>one</option>
+            <option>two</option>
+            <option>three</option>
+        </select>
+
+        <label class="form-label">Choose an option</label>
+        <select class="form-select form-select-sm mb-4 shadow p-3 mb-5 bg-white rounded">
+            <option disabled selected>click here</option>
+            <option>one</option>
+            <option>two</option>
+            <option>three</option>
+        </select>
+
+        
+        <label class="form-label">Disabled select</label>
+        <select class="form-select form-select-sm mb-4 shadow-sm" disabled>
+            <option disabled selected>Disabled</option>
+            <option>one</option>
+            <option>two</option>
+            <option>three</option>
+        </select>
+
+        <label class="form-label">multiple select</label>
+        <select class="form-select form-select-sm mb-4 shadow-sm" multiple>
+            <option disabled selected>Disabled</option>
+            <option>one</option>
+            <option>two</option>
+            <option>three</option>
+        </select>
+
+        <select class="form-select mb-5">
+            <option disabled selected>Select from here</option>
+            <optgroup label="Frontend">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JAVASCRIPT</option>
+            </optgroup>
+            <optgroup label="Backend">
+                <option>NODE JS</option>
+                <option>EXPRESS JS</option>
+            </optgroup>
+        </select>
+
+        <div class="form-check">
+        <input type="checkbox" class="form-check-input">
+        <label class="form-check-label">Default checkbox</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" checked>
+            <label class="form-check-label">Selected checkbox</label>
+        </div>
+                <div class="form-check">
+            <input type="checkbox" class="form-check-input" disabled>
+            <label class="form-check-label">disabled checkbodx</label>
+        </div>
+
+        <div class="form-check mt-4 form-check-inline ">
+            <input class="form-check-input" type="radio" name="radio">
+            <label class="form-check-label">default radio</label>
+        </div>
+        <div class="form-check mb-4 form-check-inline">
+            <input type="radio" class="form-check-input" name="radio" checked >
+            <label class="form-check-label">Selected radio</label>
+        </div>
+
+        <div class="form-checked">
+            <input type="radio" class="form-check-input" disabled>
+            <label class="form-check-label">Default disabled radio</label>
+        </div>
+        <div class="form-check mb-4">
+            <input type="radio" class="form-check-input" checked disabled>
+            <label class="form-check-label">Checked disabled radio</label>
+        </div>
+            
+        <label class="form-label">Example range</label>
+        <input type="range" class="form-range" min="0" max="5">
+
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label">default switch</label>
+        </div>
+        <div class="form-check form-switch mb-2 ">
+            <input type="checkbox" class="form-check-input" checked>
+            <label class="form-check-label">Checked switch</label>
+        </div>
+        <div class="mb-4 mt-4">
+        <input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btn-check-outlined">Single toggle</label>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
