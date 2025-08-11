@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+    <h1>Browser default Validation</h1>
+    <form action="">
+        <label for="">Email</label>
+        <input type="email" required>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <h1>custom style Validation</h1>
+    <form action="" class="was-validated" novalidate>
+        <div class="mb-3">
+            <label for="email" class="form-label">Enter your email address</label>
+            <input type="email" class="form-control" required>
+            <div class="valid-feedback">Looks Good</div>
+            <div class="invalid-feedback">Please enter a valid email</div>
+            <div class="btn btn-primary" >Submit</div>
+        </div>
+    </form>
+    <br>
+    <h1>Server side Validation</h1>
+    <input type="text" class="form-control is-invalid" value="wrong value">
+    <div class="invalid-feedback">This field has server-side error</div>
+    <br>
+    <h1>Form Validation for all supported elements</h1>
+    <form action="" class="was-validated">
+        <div class="mb-3">
+            <label for="" class="form-label">Username</label>
+            <input type="text" class="form-control" required>
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">Please enter your Username</div>
+        </div>
+        <div class="mb-3">
+            <select name="" id="" class="form-select" required>
+                <option value="" >select a country</option>
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">UK</option>
+            </select>
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">Please select a country</div>
+        </div>
+
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" required>
+            <label for="" class="form-check-label">Agree</label>
+            <div class="invalid-feedback">Invalid</div>
+            <div class="valid-feedback">valid</div>
+        </div>
+<br>
+
+    </form>
+</body>
+</html>

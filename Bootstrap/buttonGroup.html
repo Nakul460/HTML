@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Group</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h3>1.Basic Button example</h3>
+        <div class="btn-group mb-4" role="group">
+            <button type="button" class="btn btn-primary">button 1</button>
+            <button type="button" class="btn btn-primary">button 2</button>
+            <button type="button" class="btn btn-primary active">button 3</button>
+        </div>
+        <h3>2.mixed styles</h3>
+        <div class="btn-group mb-4">
+            <button type="button" class="btn btn-success">left</button>
+            <button type="button" class="btn btn-danger">middle</button>
+            <button type="button" class="btn btn-warning">right</button>
+        </div>
+        <h3>3.outlined styles</h3>
+        <div class="btn-group mb-4">
+            <button class="btn btn-outline-primary">button 1</button>
+            <button class="btn btn-outline-primary">button 2</button>
+            <button class="btn btn-outline-primary">button 3</button>
+        </div>
+        <h3>4.checkbox and radio button groups</h3>
+        <h4>checkbox</h4>
+        <div class="btn-group mb-4">
+            <input type="checkbox" class="btn-check" id="check1">
+            <label for="check1" class="btn btn-outline-primary">checkbox1</label>
+
+            <input type="checkbox" class="btn-check" id="check2">
+            <label for="check2" class="btn btn-outline-primary">checkbox2</label>
+
+            <input type="checkbox" class="btn-check" id="check3">
+            <label for="check3" class="btn btn-outline-primary">checkbox3</label>
+        </div>
+
+        <h4>Radio button</h4>
+        <div class="btn-group mb-4">
+            <input type="radio" class="btn-check" id="radio1" name="radio">
+            <label for="radio1" class="btn btn-outline-primary">radio1</label>
+
+            <input type="radio" class="btn-check" id="radio2" name="radio">
+            <label for="radio2" class="btn btn-outline-primary">radio2</label>
+
+            <input type="radio" class="btn-check" id="radio3" name="radio">
+            <label for="radio3" class="btn btn-outline-primary">radio3</label>
+        </div>
+
+        <h3>5.Button toolbar</h3>
+        <div class="btn-toolbar mb-4">
+            <div class="btn-group me-4">
+                <button  class="btn btn-primary">1</button>
+                <button class="btn btn-primary">2</button>
+                <button class="btn btn-primary">4</button>
+                <button class="btn btn-primary">5</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-secondary">6</button>
+                <button class="btn btn-secondary">7</button>
+                <button class="btn btn-secondary">8</button>
+            </div>
+        </div>
+
+        <div class="btn-toolbar mb-4">
+            <div class="btn-group">
+                <button class="btn btn-danger">1</button>
+                <button class="btn btn-danger">2</button>
+                <button class="btn btn-danger">3</button>
+                <button class="btn btn-danger">4</button>
+            </div>
+            <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input type="text" class="form-control" placeholder="enter your input here">
+            </div>
+        </div>
+
+        <div class="btn-toolbar justify-content-between mb-4">
+            <div class="btn-group">
+                <button class="btn btn-danger">1</button>
+                <button class="btn btn-danger">2</button>
+                <button class="btn btn-danger">3</button>
+                <button class="btn btn-danger">4</button>
+            </div>
+            <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input type="text" class="form-control" placeholder="enter your input here">
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
