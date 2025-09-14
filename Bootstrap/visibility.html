@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h4 class="text-danger">1. Visibility and responsive helpers</h4>
+        <div class="visible bg-success text-white mb-2">Visible Div</div>
+        <div class="invisible bg-secondary text-white mb-2">Invisible Div</div>
+        <div class="d-none d-lg-block bg-info text-white">Visible on large screen</div>
+        <div class="overflow-auto bg-primary" style="width: 100px; height: 50px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorem quod corrupti. At cumque distinctio qui repellendus, quia deserunt, neque sapiente vitae dolor quos minima facilis molestias excepturi non iure!</div>
+        <h4 class="text-danger">2. Position and Float</h4>
+        <div class="position-static bg-info text-white p-2 mb-2">Static</div>
+        <div class="position-relative bg-light p-2 mb-2" style="height: 90px;">Relative parent
+        <span class="position-absolute top-0 end-0 bg-primary text-white p-1">Absolute top-right</span></div>
+        <div class="position-fixed bottom-0 end-0 bg-danger text-white p-2">Fixed at the botton-right</div>
+        <div class="position-sticky top-0 bg-warning p-2" style="z-index:99;">sticky stays at top when scrolling</div>
+        <h4 class="text-danger">2.1 TBLR</h4>
+        <div class="position-relative" style="height: 120px; background: #b96060;">
+            <div class="position-absolute top-0 start-0 bg-success text-white p-1">Top left</div>
+            <div class="position-absolute bottom-0 end-0 bg-secondary text-white p-1">Bottom right</div>
+        </div>
+        <div>
+        <h4 class="text-danger">2.2 Float utilities</h4>
+        <img src="image.png" class="float-start me-2 mb-2">
+        <img src="image.png" class="float-end ms-2 mb-2">
+        Text wraps aroundw
+        </div>
+
+
+<h1 class="text-warning">Interactivity and desgin utilities</h1>
+         <h4 class="text-danger">1. Shadow utilities</h4>
+         <div class="shadow p-3 mb-2 bg-primary text-warning">Shadow utilities</div>
+        <h4 class="text-danger">2. Opacity utilities</h4>
+        <div class="bg-primary  text-warning p-3 mb-2 opacity-25">Opacity 50%</div>
+         <h4 class="text-danger">3. Cursor</h4>
+        <button class="btn btn-primary cursor-pointer">Clickable Button</button>
+
+        <div class="cursor-default" style="padding: 10px; background-color: #8b8181;">Static Text(no pointer)</div> 
+        <h4 class="text-danger">4. Z-index</h4>
+        <div class="position-relative"  style="height: 150px ; background-color: pink;">
+        <div class="position-absolute top-0 start-0 bg-primary text-white p-2 z-3" style="width: 120px;">z-3 (on top)</div>
+        <div class="position-absolute top-50 start-50  translate-middle bg-success text-white p-2 z-1" style="width: 120px;">z-1 (on middle)</div>
+        <div class="position-absolute top-100 start-100  translate-middle bg-warning text-white p-2 z-0" style="width: 120px;">z-0 (on bottom)</div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+</html>
