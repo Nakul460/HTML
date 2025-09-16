@@ -8,58 +8,76 @@
 <body>
     <h2>Example for datatypes</h2>
     <script>
-        // Primitive Datatypes
-        // number
-        var age=30;
-        console.log("Age:",age);
+        // // Primitive Datatypes
+        // // number
+        // var age=30;
+        // console.log("Age:",age);
 
-        // string
-        var name="Alice";
-        console.log("Name:",name);
+        // // string
+        // var name="Alice";
+        // console.log("Name:",name);
 
-        // boolen
-        var student = true;
-        console.log("Is student:", student);
+        // // boolen
+        // var student = true;
+        // console.log("Is student:", student);
 
-        // undefinied
-        var address;
-        console.log("Address:",address);
+        // // undefinied
+        // var address;
+        // console.log("Address:",address);
 
-        // null
-        var phone=null;
-        console.log("phone:",phone);
+        // // null
+        // var phone=null;
+        // console.log("phone:",phone);
 
-        // BigInt
-        var BigInt=125646464862148648n;
-        console.log("BigInt number:",BigInt);
+        // // BigInt
+        // var BigInt=125646464862148648n;
+        // console.log("BigInt number:",BigInt);
 
-        // Symbol
-        var id= Symbol("id");
-        console.log("Symbol:",id);
-        // Non-primitive data types
+        // // Symbol
+        // var id= Symbol("id");
+        // console.log("Symbol:",id);
 
-        //object
-        var person={
-            name:"Anu",
-            age:23,
-            Employed:false
+        // // Non-primitive data types
+
+        // //object
+        // var person={
+        //     name:"Anu",
+        //     age:23,
+        //     Employed:false
+        // };
+        // console.log("Person object:",name);
+
+        // // array
+        // var color=["red","orange","blue"];
+        // console.log("The color are:",color);
+
+        // // function
+        // function greet(name){
+        //     return "Hello," + name;
+        // }
+        // console.log(greet("Rahul"));
+
+        // //RegExp
+        // let text = " hello";
+        // let pattern = /HELLO/i;
+        // console.log(pattern.test(text));
+        const Product = {
+            produtName : "Pen",
+            price : 20,
+            rating : 4.5
         };
-        console.log("Person object:",person);
 
-        // array
-        var color=["red","orange","blue"];
-        console.log("The color are:",color);
+        Product ["productName"] = "pencil";
+        console.log(Product["productName"])
+        
+          
+        const employee = {
+            name : "Arun",
+            empID : 456,
+            salary : 30000
+        };
+        console.log(employee.name + employee.empID)
 
-        // function
-        function greet(name){
-            return "Hello," + name;
-        }
-        console.log(greet("Rahul"));
-
-        //RegExp
-        let text = " hello";
-        let pattern = /HELLO/i;
-        console.log(pattern.test(text));
     </script>
 
     
