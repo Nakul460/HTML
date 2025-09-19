@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+        
+        function greet(){
+            console.log("Hello student");
+        }
+
+        greet();
+
+        //function with argument and parameter
+        function greetByName(name){
+            console.log("Welcome " + name + "!");
+        }
+        greetByName("Nakul");
+
+        //function with return value
+        function modulus(a,b){
+            return a % b ;
+        }
+        let mod = modulus(10,6);
+        console.log(mod); 
+
+        //function expression
+        let sum = function(a,b){
+            return a + b;
+        } 
+        console.log(sum(5,16));
+
+        //Arrow function
+        let multiply = (x,y)=>{
+            return x * y;
+        }
+        console.log(multiply(8,4));
+
+        //creating and calling methods
+        const student = {
+            name:"Nakul",
+            age:21,
+            
+            greet(){
+                console.log("Hello my name is " + this.name);
+            },
+            getAge(){
+                console.log("I am " + this.age + " years old");
+            }
+        }
+        student.greet();
+        student.getAge();
+
+    </script>
+</body>
+</html>

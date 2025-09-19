@@ -99,16 +99,49 @@
         // console.log(student.join("---"));
         // console.log(employee.join("---"));
 
-        let fruits = ["Apple","Orange","Mango"];
+        //let fruits = ["Apple","Orange","Mango"];
         // fruits.slice(1);
         // console.log(fruits);
 
         // console.log(fruits.slice(0,2));
 
-        fruits.splice(1,0,"grapes","banana");
-        console.log(fruits);
+        // fruits.splice(1,0,"grapes","banana");
+        // console.log(fruits);
 
-        
+        let companies = ["Bloomberg","Microsoft","uber","Google", "IBM", "Netflix"];
+        companies.shift();
+        companies.splice(1,1,"Ola");
+        companies.push("amazon");
+        console.log(companies);
+
+        let fruit = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+        fruit.pop()
+        fruit.unshift("Pineapple");
+        fruit.splice(3,1,"strawberry");
+        console.log(fruit);
+
+        let subjects = ["Maths", "Science", "English", "History", "Geography"];
+
+        subjects.splice(1,1);
+        subjects.push("computer");
+        subjects.splice(2,1,"civics");
+        console.log(subjects);
+
+        let cars = ["BMW", "Audi", "Tata", "Toyota", "Hyundai"];
+
+        cars.splice(0,2);
+        cars.splice(1,1,"Kia");
+        cars.push("Mahindra");
+        console.log(cars);
+
+        let colors = ["Red", "Green", "Blue", "Yellow", "Purple"];
+
+        colors.splice(2,1);
+        colors.unshift("Black");
+        colors.splice(-1,1,"White");
+        console.log(colors);
+
+
     </script>
     
 </body>
